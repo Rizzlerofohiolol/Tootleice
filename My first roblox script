@@ -1,0 +1,42 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Toothax", "Midnight")
+
+--Main
+local Main = Window:NewTab("Admins")
+local MainSection = Main:NewSection("Enjoy")
+
+
+MainSection:NewButton("Infinite yield", "Admin script", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+MainSection:NewButton("GhostHub", "Admin Script", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub'))()
+end)
+
+--Main
+local Main = Window:NewTab("BROOKHAVEN")
+local MainSection = Main:NewSection("Enjoy")
+
+MainSection:NewButton("Julhub", "Same ice hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/JulHubz/JulHub/main/JulHub"))()
+end)
+
+MainSection:NewButton("Redz Hub", "I think best script in brookhaven", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/REDzHUB/main/REDzHUB"))()
+end)
+
+MainSection:NewButton("Rochips", "Chips <3", function()
+   --//rochips haven//--
+local pastebin, Rochips_Panel = "https://glot.io/snippets", "gw".."wv".."87".."7g".."a3/r".."aw".."/ma".."in.lu".."a" --funny moment
+loadstring(game:HttpGet(pastebin.."/"..Rochips_Panel))()
+--//takes about 1-8 minutes to load//--
+end)
+
+--Main
+local Main = Window:NewTab("Booga Booga")
+local MainSection = Main:NewSection("Enjoy")
+
+MainSection:NewButton("Devil hub(Need key)", "Outo farm and more ", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/DEVIL-Script/DEVIL-Hub/main/DEVIL-Hub-Main", true))()
+end)
